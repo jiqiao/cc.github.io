@@ -90,7 +90,7 @@ textarea {
     font-family: SourceHanSansSC-regular;
 	display: flex;
 	overflow: hidden;
-	margin-left: 250px;
+	/* margin-left: 250px; */
 	align-items: center;
 }
 /* logo end  */
