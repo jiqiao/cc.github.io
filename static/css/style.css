@@ -77,10 +77,11 @@ textarea {
     cursor: pointer;
 }
 .logo-right {
-    padding-left: 0px;
+  /*  padding-left: 0px; */
     font-size: 36px;
     color: rgba(0, 39, 102, 1);
     font-family: SourceHanSansSC-regular;
+	align-self:center;
 }
 /* logo end  */
 
