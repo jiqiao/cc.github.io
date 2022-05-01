@@ -70,12 +70,12 @@ textarea {
     margin-left: 250px;
     align-items: center;
 }
-.logo-left {
+/* .logo-left {
     position: relative;
     width: 125px;
     height: 121px;
     cursor: pointer;
-}
+} */
 .logo-right {
   /*  padding-left: 0px; */
     font-size: 36px;
