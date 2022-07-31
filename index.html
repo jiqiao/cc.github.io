@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="CC丨个人导航  简单实用的个人导航网页，收录几个够用的网站；可以实现多引擎搜索，如百度，谷歌，必应">
+    <meta name="description" content="CC导航  简单实用的个人导航网页，收录几个够用的网站；可以实现多引擎搜索，如百度，谷歌，必应">
     <meta name="keywords" content="导航,简单实用的导航,多搜索引擎,谷歌,百度,必应,搜索，网盘，电影">
     <meta name="generator" content="CC 丨 2018.09.27">
     <link rel="shortcut icon" href="img/icon-black.png">
     <link rel="stylesheet" href="css/semantic.min.css">
     <link rel="stylesheet" href="css/m_dh.style.css">
-    <title>CC丨个人导航</title>
+    <title>CC导航</title>
     <script src="js/jquery.min.js"></script>
 </head>
 <body id="killie" >
@@ -18,9 +18,9 @@
     <div class="ui container">
         <span class="header item">
             <img class="logo" src="img/icon-white.png">
-            个人导航
+            CC导航
         </span>
-        <a href="https://cc.ci" class="item" target="_blank">CC's blog</a>
+     <!--   <a href="https://cc.ci" class="item" target="_blank">CC's blog</a> -->
         <a class="ui item right floated" id="goDonate">
             赏一个
             </a>
@@ -36,16 +36,15 @@
     </div>
 </div>
     <div class="ui sbuttons">
+		<button class="ui button" id="baidu" >
+		    百度
+		</button>
         <button class="ui button" id="google" >
             谷歌
         </button>
        <button class="ui button" id="bing">
             必应
         </button>
-    <button class="ui button" id="baidu" >
-        百度
-    </button>
-       
         <button class="ui button" id="github">
             GitHub
         </button>
@@ -299,10 +298,10 @@ var titleTime;
 document.addEventListener('visibilitychange',
     function() {
         if (document.hidden) {
-            document.title = '快来搜点啥吧~' ;
+            document.title = 'CC导航' ;
             clearTimeout(titleTime);
         } else {
-            document.title = '你来了哈~ ' ;
+            document.title = 'https://CC.ci' ;
             titleTime = setTimeout(function() {
                     document.title = OriginTitile;
                 },
